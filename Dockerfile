@@ -1,5 +1,5 @@
-# Use the official Golang 1.22 image as a base
-FROM golang:1.22 as builder
+# Use the official Golang 1.25 image as a base
+FROM golang:1.25 AS builder
 
 WORKDIR /app
 
